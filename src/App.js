@@ -3,6 +3,8 @@ import { Navbar } from './components/navbar/navbar'
 import { ItemListContainer } from './components/itemlistcontainer/itemlistcontainer'
 import { Product } from './components/product/product'
 
+import Counter from "./components/itemcounter/itemcounter"
+
 function App() {
   const products = [
 {
@@ -47,6 +49,7 @@ function App() {
          
          }
         <ItemListContainer/>
+        <Counter/>
         </div>
   )
 }
