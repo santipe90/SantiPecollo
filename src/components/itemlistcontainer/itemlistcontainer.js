@@ -1,3 +1,4 @@
+import { Item } from '../item/item'
 export const ItemListContainer = (props) => {
 
     const handleClick = () => 
@@ -6,6 +7,7 @@ export const ItemListContainer = (props) => {
     return (
     <div onClick={handleClick}>
         <h2>{props.greeting}</h2>
+        <h2><Item/></h2>
     </div>
 )
 }
