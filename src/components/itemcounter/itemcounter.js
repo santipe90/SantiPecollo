@@ -17,7 +17,7 @@ function Counter() {
         <h5>Remera Cresta {count}</h5>
         <button onClick={handleIncrement}>+</button>
       </div>
-      <button onClick={() => setCount(0)}>Agregar al carrito</button>
+      <button onADD={alert()}>Agregar al carrito</button>
     </div>
   );
 }
